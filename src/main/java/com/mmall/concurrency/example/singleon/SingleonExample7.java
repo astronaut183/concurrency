@@ -26,6 +26,7 @@ public class SingleonExample7 {
 
 
         //JVM保证这个方法绝对只调用一次    enumConstantDirectory方法
+        //反复调用？
         Singleon(){
             singleon = new SingleonExample7();
         }
