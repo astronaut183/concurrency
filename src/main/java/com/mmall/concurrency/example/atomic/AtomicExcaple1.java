@@ -14,6 +14,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class AtomicExcaple1 {
 
     // 请求总数
+    //
+    //
     public static int clientTotal = 5000;
 
     // 同时并发执行的线程数
